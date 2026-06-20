@@ -1,0 +1,68 @@
+# ========== 编译产物 ==========
+build/
+out/
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+*.su
+*.axf
+
+# ========== IDE 配置 ==========
+# Keil MDK
+*.uvguix.*
+*.uvoptx
+*.uvopt
+*.bat
+*.dep
+*.dct
+*.lst
+*.htm
+*.lnp
+*.lnpsym
+*.map
+*.build_log.htm
+Listings/
+Objects/
+
+# STM32CubeIDE
+Debug/
+Release/
+*.launch
+.cproject
+.project
+.settings/
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/
+!.vscode/settings.json
+
+# VS Code
+.vscode/
+!.vscode/c_cpp_properties.json
+
+# ========== ESP-IDF ==========
+sdkconfig
+sdkconfig.old
+managed_components/
+dependencies.lock
+*.pyc
+__pycache__/
+
+# ========== 系统文件 ==========
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*~
+
+# ========== 临时文件 ==========
+*.log
+*.tmp
+*.bak
